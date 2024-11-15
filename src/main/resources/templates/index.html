@@ -1,0 +1,63 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/table.css">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="search-bar">
+        <div class="search-location">
+            <label>Location</label>
+            <input type="text" id="searchLocation" placeholder="City or Zip Code">
+        </div>
+        <div class="search-days">
+            <label>Forecast # of Days (1 to 3)</label>
+            <input type="text" id="searchDays" placeholder="1">
+        </div>
+        <div class="searchBtn">
+            <button type="submit" id="searchBtn">Search</button>
+        </div>
+    </div>
+    <div>
+<div>
+    <table id="weather" class="display">
+        <thead>
+        <tr>
+            <th></th>
+            <th>City</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Timezone</th>
+            <th>Local Time</th>
+            <th>Last Updated</th>
+            <th>Low C</th>
+            <th>Low F</th>
+            <th>Humidity</th>
+            <th>Currently</th>
+            <th></th>
+        </tr>
+        </thead>
+
+
+    </table>
+</div>
+    </div>
+</div>
+<script defer>
+    // window.json = [(${jsonObj})];
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+<script src="/js/datatable.js"></script>
+
+</body>
+</html>
