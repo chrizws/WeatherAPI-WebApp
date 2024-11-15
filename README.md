@@ -38,13 +38,19 @@ spring.datasource.password = {password}
 ## Examples
 - Searching and inserting
 
-https://github.com/user-attachments/assets/6eb584a0-060e-4311-a3c3-b938c1c4305d
+https://github.com/user-attachments/assets/551e6822-a572-4057-ae40-254aaa3021c9
+
 
 - Deleting a row and record
 
-https://github.com/user-attachments/assets/829501c8-9651-48de-b885-f9071d5e2e5e
+https://github.com/user-attachments/assets/5cf49557-39e0-4f9e-9086-275b465a878e
+
 
 - Searching and sorting
 
-https://github.com/user-attachments/assets/0e6b64aa-abfd-4d91-b0eb-bb598c70e060
+
+https://github.com/user-attachments/assets/76cba8a2-14b8-4e77-a4fa-dd5c8b728ffe
+
+
+
 
